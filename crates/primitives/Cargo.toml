@@ -50,6 +50,12 @@ ruint = { version = "1.8.0", features = [
     "proptest",
     "arbitrary",
 ] }
+ruint = { git = "https://github.com/recmo/uint.git", features = [
+    "primitive-types",
+    "rlp",
+    "proptest",
+    "arbitrary",
+] }
 
 [features]
 default = ["std"]
